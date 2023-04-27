@@ -1,0 +1,83 @@
+.naam, .contactgegevens {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  column-gap: 25px;
+}
+
+.achternaam {
+  flex:1;
+  width: 100%;
+}
+input {
+  width: 100%;
+  flex: 1;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border:none;
+  border-radius: 4px;
+  box-shadow: 0 0 2px rgba(0,0,0,0.2);
+  height: 25px;
+}
+input::placeholder{
+  padding-left: 5px;
+  font-size: 16px;
+}
+input:focus{
+  padding-left: 7px;
+  padding-top: 7px;
+  font-size: 17px;
+}
+.email {
+  flex: 2;
+}
+.nummer {
+  flex: 1;
+}
+.contact-text {
+  font-size: 16px;
+  font-weight: 500;
+}
+.question-bar{
+  flex-wrap: 1;
+  height: 190px;
+  width: 100%;
+}
+textarea {
+  border:none;
+  border-radius: 4px;
+  box-shadow: 0 0 2px rgba(0,0,0,0.2);
+}
+textarea:focus {
+  padding-left: 7px;
+  padding-top: 7px;
+  font-size: 17px;
+}
+
+.stuur {
+  margin-top: 15px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 9px;
+  padding-right: 9px;
+  border-radius: 3px;
+  border: none;
+  background-color: lightskyblue;
+  cursor: pointer;
+  transition: opacity 0.15s;
+  font-size: 16px;
+}
+.stuur:hover {
+  opacity: 0.9;
+}
+.stuur:active {
+  opacity: 0.7;
+}
+form {
+  margin-top: 30px;
+}
+
+.contactgegevens {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

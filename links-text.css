@@ -1,0 +1,26 @@
+.links-text {
+  font-size: 16px;
+}
+ 
+.links-text p {
+  line-height: 25px;
+}
+
+.intro {
+  font-weight: bold;
+  font-size: 22px;
+  color: rgb(193, 37, 37);
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.h2, .h5, .h8, .h10 {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.h4, .h7, .h9 {
+  margin-bottom: 30px;
+}
+

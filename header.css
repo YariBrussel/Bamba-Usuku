@@ -1,0 +1,112 @@
+.header-background {
+  position: fixed;
+  z-index: 1;
+  right: 0;
+  left: 0;
+  top: 0;
+  background-color:  #FFC;
+  height: 90px;
+}
+
+.header {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  font-weight: 500;
+  position: fixed;
+  right: 10px;
+  left: 10px;
+  top: 5px;
+  height: 75px;
+  z-index: 5;
+}
+
+.logo-free {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  background-image: url(Afbeelding1.png);
+  background-size: cover;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+/*nog zien backround-repeat of niet?*/
+}
+.logo {
+  display: block;
+  width: 400px;
+  cursor: pointer;
+  object-fit: contain;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.home-knop, .werkwijze-knop, .aanbod-knop, .achtergrond-knop, .extra-knop, .praktisch-knop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 75px;  
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  color: white;
+  cursor: pointer;
+  transition: opacity 0.2s, color 0.2s, background-color 0.2s;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.home-knop:hover, .werkwijze-knop:hover, .aanbod-knop:hover, .achtergrond-knop:hover, .praktisch-knop:hover, .extra-knop:hover {
+  opacity: 0.9;
+ color: white;
+ background-color: lightgray;
+}
+.extra-knop { 
+  flex: 1;
+  font-weight: 600;
+  font-size: 20px;
+  position: relative;
+}
+ .werkwijze-knop, .aanbod-knop, .achtergrond-knop, .praktisch-knop, .home-knop {
+  flex: 2;
+}
+
+.extra-knop-text {
+  position: absolute;
+  background-color: lightpink;
+  bottom: -10px;
+  z-index: 5;
+}
+
+.hsection-1  {
+  flex:2;
+}
+.hsection-6 {
+  flex: 1;
+}
+
+.hsection-2, .hsection-3, .hsection-4, .hsection-5 {
+  flex: 2;
+  display: none;
+}
+
+@media screen and (min-width:660px) {
+  .hsection-2 {
+    display: block;
+  }
+}
+@media screen and (min-width:810px) {
+  .hsection-3 {
+    display: block;
+  }
+}
+@media screen and (min-width:960px) {
+  .hsection-4 {
+    display: block;
+  }
+}
+@media screen and (min-width:1110px) {
+  .hsection-5 {
+    display: block;
+  }
+}

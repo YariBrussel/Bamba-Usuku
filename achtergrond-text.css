@@ -1,0 +1,27 @@
+.achtergrond-text {
+  font-size: 16px;
+  line-height: 35px;
+  margin-bottom: 20px;
+}
+ 
+.intro {
+  font-weight: bold;
+  font-size: 22px;
+  color: rgb(193, 37, 37);
+  text-align: center;
+  margin-bottom: 35px;
+}
+.foto-flexbox {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between; 
+  height: 300px;
+  align-items: center;
+}
+
+.anja-foto, .praktijk-foto {
+  width: 300px;
+}
+.quote {
+  flex:1;
+}
